@@ -42,7 +42,7 @@ export default function ProjectsSection() {
         >
           <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">My Projects</h2>
           <p className="text-xl max-w-3xl mx-auto text-gray-700 dark:text-gray-300">
-            Here are some of the projects I've worked on. Each project was built with a focus on
+            Here are some of the projects I&apos;ve worked on. Each project was built with a focus on
             solving real-world problems and delivering exceptional user experiences.
           </p>
         </motion.div>

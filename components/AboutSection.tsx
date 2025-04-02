@@ -22,7 +22,7 @@ export default function AboutSection() {
         >
           <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h2>
           <p className="text-xl max-w-3xl mx-auto text-gray-700 dark:text-gray-300">
-            Hey there! I'm Shamir, a high school graduate with a deep passion for building
+            Hey there! I&apos;m Shamir, a high school graduate with a deep passion for building
             impactful products that can positively influence humankind. I thrive in collaborative
             environments and love working with teams to create high-quality products that solve
             real-world problems.

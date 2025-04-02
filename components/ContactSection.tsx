@@ -22,7 +22,7 @@ export default function ContactSection() {
         >
           <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Get in Touch</h2>
           <p className="text-xl max-w-3xl mx-auto text-gray-700 dark:text-gray-300">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
         </motion.div>
 
