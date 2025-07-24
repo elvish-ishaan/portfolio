@@ -6,7 +6,6 @@ import Link from 'next/link'
 import AboutSection from '@/components/AboutSection'
 import ProjectsSection from '@/components/ProjectsSection'
 import ContactSection from '@/components/ContactSection'
-import ThemeToggle from '@/components/ThemeToggle'
 import MobileMenu from '@/components/MobileMenu'
 import Footer from '@/components/Footer'
 import { TypewriterEffect } from '@/components/ui/typewriter-effect'
@@ -57,7 +56,6 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <ThemeToggle />
                 <MobileMenu />
               </div>
             </div>

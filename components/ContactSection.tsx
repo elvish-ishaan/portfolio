@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { EnvelopeIcon, PhoneIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
+import { EnvelopeIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 
 export default function ContactSection() {
   const [ref, inView] = useInView({
@@ -42,15 +42,7 @@ export default function ContactSection() {
                 ishaanelvish@gmail.com
               </a>
             </div>
-            <div className="flex items-center space-x-4">
-              <PhoneIcon className="h-6 w-6 text-blue-600" />
-              <a
-                href="tel:+919103267625"
-                className="hover:text-blue-600 text-gray-700 dark:text-gray-300"
-              >
-                +91 9103267625
-              </a>
-            </div>
+            
             <div className="flex items-center space-x-4">
               <CodeBracketIcon className="h-6 w-6 text-blue-600" />
               <a

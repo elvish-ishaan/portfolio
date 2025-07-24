@@ -55,8 +55,12 @@ const techData = [
           <span className="text-xs mt-1">Node.js</span>
         </div>
         <div className="flex flex-col items-center">
-          {/* <Icon name="express" className="w-8 h-8" /> */}
+          <Icon name="expressjs" className="w-8 h-8" />
           <span className="text-xs mt-1">Express</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <Icon name="go" className="w-8 h-8" />
+          <span className="text-xs mt-1">Go</span>
         </div>
         <div className="flex flex-col items-center">
           <Icon name="nestjs" className="w-8 h-8" />
@@ -143,10 +147,6 @@ const techData = [
         <div className="flex flex-col items-center">
           {/* <Icon name="kafka" className="w-8 h-8" /> */}
           <span className="text-xs mt-1">Kafka</span>
-        </div>
-        <div className="flex flex-col items-center">
-          {/* <Icon name="terraform" className="w-8 h-8" /> */}
-          <span className="text-xs mt-1">Terraform</span>
         </div>
         <div className="flex flex-col items-center">
           <Icon name="grafana" className="w-8 h-8" />

@@ -9,19 +9,37 @@ const projects = [
   {
     title: 'Nafri',
     description: 'A cloud storage platform with advanced features and secure file management.',
-    image: '/projects/nafri.jpg',
+    image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753363314/Screenshot_2025-07-24_185122_rdys7h.png",
     technologies: ['Next.js', 'Node.js', 'MongoDB', 'AWS S3'],
     github: 'https://github.com/elvish-ishaan/nafri',
-    live: 'https://nafri.com',
+    live: 'https://nafri.dryink.space',
   },
   {
-    title: 'Medrepo',
-    description: 'Platform for patients and doctors with AI capabilities for analyzing reports and managing appointments.',
-    image: '/projects/medrepo.jpg',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'AI Integration'],
-    github: 'https://github.com/elvish-ishaan/medrepo',
-    live: 'https://medrepo.com',
+    title: "Dryink",
+    Description: "A platform for generating animated videos from educational content.",
+    image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753364154/Screenshot_2025-07-24_190533_hzjtgs.png",
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
+    github: 'https://github.com/elvish-ishaan/dryink',
+    live: 'https://dryink.space',
   },
+  {
+    title: "t3plus",
+    description: "Chatbot Where you can ask questions and get answers with lots of other stuff.",
+    image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753364322/Screenshot_2025-07-24_190828_dphhcv.png",
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
+    github: 'https://github.com/elvish-ishaan/t3plus',
+    live: 'https://t3plus.vercel.app',
+  },
+  // {
+  //   title: "Hiremate",
+  //   description: "A platform for automating the hiring process.",
+  //   image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753364322/Screenshot_2025-07-24_190828_dphhcv.png",
+  //   technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
+  //   github: 'https://github.com/elvish-ishaan/Hiremate',
+  //   live: 'https://hiremate.vercel.app',
+  // }
+  
+ 
 ]
 
 export default function ProjectsSection() {
@@ -60,8 +78,10 @@ export default function ProjectsSection() {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  fill
-                  className="object-cover"
+                  height={480}
+                  width={640}
+                  className="object-cover w-full h-full"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
               <div className="p-6">
