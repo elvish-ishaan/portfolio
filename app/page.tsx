@@ -10,7 +10,6 @@ import MobileMenu from '@/components/MobileMenu'
 import Footer from '@/components/Footer'
 import { TypewriterEffect } from '@/components/ui/typewriter-effect'
 import { WordRotate } from '@/components/ui/word-rotate'
-import { Highlighter } from '@/components/ui/text-highlighter'
 
 export default function Home() {
   const words = [
