@@ -27,7 +27,7 @@ const projects = [
     description: "A platform where you can ask questions and get answers from experts.",
     image: "https://res.cloudinary.com/diqurtmad/image/upload/v1760537831/Screenshot_2025-10-15_194650_mgkwvq.png",
     technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS', 'Langchain', 'Pinecone'],
-    github: 'https://github.com/elvish-ishaan/ask-guru',
+    github: 'https://github.com/elvish-ishaan/askguru',
     live: 'https://askguru.dryink.space',
   },
   {
