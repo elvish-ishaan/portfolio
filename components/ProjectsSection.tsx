@@ -7,8 +7,32 @@ import Link from 'next/link'
 
 const projects = [
   {
+    title: 'Pumpkin Ai',
+    description: 'An AI-powered platform for editing images with just a prompt.',
+    image: "https://res.cloudinary.com/diqurtmad/image/upload/v1760537595/Screenshot_2025-09-11_142624_qtwhog.png",
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS', 'Gemini API', 'AWS S3'],
+    github: 'https://github.com/elvish-ishaan/pumpkin',
+    live: 'https://pumpkin.dryink.space',
+  },
+  {
+    title: "Plusai",
+    description: "Chatbot Where you can ask questions and get answers with lots of other stuff.",
+    image: "https://res.cloudinary.com/diqurtmad/image/upload/v1760537754/plusai_mgsebt.png",
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
+    github: 'https://github.com/elvish-ishaan/plusai',
+    live: 'https://plusai.dryink.space',
+  },
+  {
+    title: "Ask Guru",
+    description: "A platform where you can ask questions and get answers from experts.",
+    image: "https://res.cloudinary.com/diqurtmad/image/upload/v1760537831/Screenshot_2025-10-15_194650_mgkwvq.png",
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS', 'Langchain', 'Pinecone'],
+    github: 'https://github.com/elvish-ishaan/ask-guru',
+    live: 'https://askguru.dryink.space',
+  },
+  {
     title: 'Nafri',
-    description: 'A cloud storage platform with advanced features and secure file management.',
+    description: 'A cloud storage platform with advanced asset management and secure file encryption.',
     image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753363314/Screenshot_2025-07-24_185122_rdys7h.png",
     technologies: ['Next.js', 'Node.js', 'MongoDB', 'AWS S3'],
     github: 'https://github.com/elvish-ishaan/nafri',
@@ -16,19 +40,11 @@ const projects = [
   },
   {
     title: "Dryink",
-    Description: "A platform for generating animated videos from educational content.",
+    description: "A platform for generating animated videos from educational content.",
     image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753364154/Screenshot_2025-07-24_190533_hzjtgs.png",
-    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
+    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS', "FFmpeg", "OpenAI API"],
     github: 'https://github.com/elvish-ishaan/dryink',
     live: 'https://dryink.space',
-  },
-  {
-    title: "t3plus",
-    description: "Chatbot Where you can ask questions and get answers with lots of other stuff.",
-    image: "https://res.cloudinary.com/du7xpy1rn/image/upload/v1753364322/Screenshot_2025-07-24_190828_dphhcv.png",
-    technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
-    github: 'https://github.com/elvish-ishaan/t3plus',
-    live: 'https://t3plus.vercel.app',
   },
   // {
   //   title: "Hiremate",
@@ -37,8 +53,7 @@ const projects = [
   //   technologies: ['Next.js', 'Node.js', 'Postgres', 'Tailwind CSS'],
   //   github: 'https://github.com/elvish-ishaan/Hiremate',
   //   live: 'https://hiremate.vercel.app',
-  // }
-  
+  // },
  
 ]
 

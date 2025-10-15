@@ -9,6 +9,8 @@ import ContactSection from '@/components/ContactSection'
 import MobileMenu from '@/components/MobileMenu'
 import Footer from '@/components/Footer'
 import { TypewriterEffect } from '@/components/ui/typewriter-effect'
+import { WordRotate } from '@/components/ui/word-rotate'
+import { Highlighter } from '@/components/ui/text-highlighter'
 
 export default function Home() {
   const words = [
@@ -32,10 +34,10 @@ export default function Home() {
     {
       text: "passionate",
     },
-    {
-      text: "developer",
-      className: "text-blue-600 dark:text-blue-500",
-    },
+    // {
+    //   text: "developer",
+    //   className: "text-blue-600 dark:text-blue-500",
+    // },
   ];
 
   return (
@@ -72,11 +74,12 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <TypewriterEffect words={words} />
+            <div className=' flex flex-col gap-4'>
+              <TypewriterEffect words={words} />
+              <WordRotate className=' font-bold text-5xl' words={["AI Engineer", "Full Stack Developer"]} />
+            </div>
             
-            <p className="text-xl max-w-3xl mx-auto mt-8 mb-8 text-gray-700 dark:text-gray-300">
-              I focus on building impactful products that solve real-world problems.
-            </p>
+            
 
             <motion.div
               initial={{ opacity: 0 }}
